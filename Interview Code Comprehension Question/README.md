@@ -7695,6 +7695,7 @@ The length of the array 'arr' has been set to 0, so the array becomes empty.
 
 </p>
 </details>
+
 ---
 
 #### 236. How do you verify two strings are anagrams or not?
@@ -7709,6 +7710,8 @@ function verifyAnagrams(word1, word2) {
 }
 console.log(verifyAnagrams("eat", "ate"));
 ```
+
+---
 
 #### 237. What is the output of below code?
 
@@ -7755,6 +7758,7 @@ function printHello() {
 
 </p>
 </details>
+
 ---
 
 #### 238. What is the time taken to execute below timeout callback?
