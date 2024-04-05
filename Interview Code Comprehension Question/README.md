@@ -6044,7 +6044,7 @@ console.log(sym1);
 
 ---
 
-#### 32. What is the output of below code
+#### 186. What is the output of below code
 
 ```javascript
 let myNumber = 100;
@@ -6093,7 +6093,7 @@ if (typeof myNumber !== "string")
 
 ---
 
-#### 186. What is the output of below code
+#### 187. What is the output of below code
 
 ```javascript
 console.log(
@@ -6125,7 +6125,7 @@ The symbols has below constraints,
 
 ---
 
-#### 187. What is the output of below code
+#### 188. What is the output of below code
 
 ```javascript
 class A {
@@ -6160,7 +6160,7 @@ Using constructors, `new.target` refers to the constructor (points to the class 
 
 ---
 
-#### 188. What is the output of below code
+#### 189. What is the output of below code
 
 ```javascript
 const [x, ...y, z] = [1, 2, 3, 4];
@@ -6185,7 +6185,7 @@ It throws a syntax error because the rest element should not have a trailing com
 
 ---
 
-#### 189. What is the output of below code
+#### 190. What is the output of below code
 
 ```javascript
 const { a: x = 10, b: y = 20 } = { a: 30 };
@@ -6215,7 +6215,7 @@ The object property follows below rules,
 
 ---
 
-#### 190. What is the output of below code
+#### 191. What is the output of below code
 
 ```javascript
 function area({ length = 10, width = 20 }) {
@@ -6265,7 +6265,7 @@ area();
 
 ---
 
-#### 191. What is the output of below code
+#### 192. What is the output of below code
 
 ```javascript
 const props = [
@@ -6296,7 +6296,7 @@ It is possible to combine Array and Object destructuring. In this case, the thir
 
 ---
 
-#### 192. What is the output of below code
+#### 193. What is the output of below code
 
 ```javascript
 function checkType(num = 1) {
@@ -6332,7 +6332,7 @@ Hence, the result of function calls categorized as below,
 
 ---
 
-#### 193. What is the output of below code
+#### 194. What is the output of below code
 
 ```javascript
 function add(item, items = []) {
@@ -6360,7 +6360,7 @@ Since the default argument is evaluated at call time, a new object is created ea
 
 ---
 
-#### 194. What is the output of below code
+#### 195. What is the output of below code
 
 ```javascript
 function greet(greeting, name, message = greeting + " " + name) {
@@ -6387,7 +6387,7 @@ Since parameters defined earlier are available to later default parameters, this
 
 ---
 
-#### 42. What is the output of below code
+#### 196. What is the output of below code
 
 ```javascript
 function outer(f = inner()) {
@@ -6414,7 +6414,7 @@ The functions and variables declared in the function body cannot be referred fro
 
 ---
 
-#### 43. What is the output of below code
+#### 197. What is the output of below code
 
 ```javascript
 function myFun(x, y, ...manyMoreArgs) {
@@ -6443,7 +6443,7 @@ The rest parameter is used to hold the remaining parameters of a function and it
 
 ---
 
-#### 44. What is the output of below code
+#### 198. What is the output of below code
 
 ```javascript
 const obj = { key: "value" };
@@ -6469,7 +6469,7 @@ Spread syntax can be applied only to iterable objects. By default, Objects are n
 
 ---
 
-#### 45. What is the output of below code
+#### 199. What is the output of below code
 
 ```javascript
 function* myGenFunc() {
@@ -6499,7 +6499,7 @@ Generators are not constructible type. But if you still proceed to do, there wil
 
 ---
 
-#### 46. What is the output of below code
+#### 200. What is the output of below code
 
 ```javascript
 function* yieldAndReturn() {
@@ -6532,7 +6532,7 @@ A return statement in a generator function will make the generator finish. If a 
 
 ---
 
-#### 47. What is the output of below code
+#### 201. What is the output of below code
 
 ```javascript
 const myGenerator = (function* () {
@@ -6568,7 +6568,7 @@ The generator should not be re-used once the iterator is closed. i.e, Upon exiti
 
 ---
 
-#### 48. What is the output of below code
+#### 202. What is the output of below code
 
 ```javascript
 const num = 0o38;
@@ -6591,7 +6591,7 @@ If you use an invalid number(outside of 0-7 range) in the octal literal, JavaScr
 
 ---
 
-#### 49. What is the output of below code
+#### 203. What is the output of below code
 
 ```javascript
 const squareObj = new Square(10);
@@ -6630,7 +6630,7 @@ Unlike function declarations, class declarations are not hoisted. i.e, First You
 
 ---
 
-#### 50. What is the output of below code
+#### 204. What is the output of below code
 
 ```javascript
 function Person() {}
@@ -6669,7 +6669,7 @@ When a regular or prototype method is called without a value for **this**, the m
 
 ---
 
-#### 51. What is the output of below code
+#### 205. What is the output of below code
 
 ```javascript
 class Vehicle {
@@ -6711,7 +6711,7 @@ The super keyword is used to call methods of a superclass. Unlike other language
 
 ---
 
-#### 52. What is the output of below code
+#### 206. What is the output of below code
 
 ```javascript
 const USER = { age: 30 };
@@ -6737,7 +6737,7 @@ Even though we used constant variables, the content of it is an object and the o
 
 ---
 
-#### 53. What is the output of below code
+#### 207. What is the output of below code
 
 ```javascript
 console.log("🙂" === "🙂");
@@ -6759,7 +6759,7 @@ Emojis are unicodes and the unicode for smile symbol is "U+1F642". The unicode c
 
 ---
 
-#### 54. What is the output of below code?
+#### 208. What is the output of below code?
 
 ```javascript
 console.log(typeof typeof typeof true);
@@ -6783,7 +6783,7 @@ The typeof operator on any primitive returns a string value. So even if you appl
 
 ---
 
-#### 55. What is the output of below code?
+#### 209. What is the output of below code?
 
 ```javascript
 let zero = new Number(0);
@@ -6816,7 +6816,7 @@ Hence the above code block always goes to if section.
 
 ---
 
-#### 55. What is the output of below code in non strict mode?
+#### 210. What is the output of below code in non strict mode?
 
 ```javascript
 let msg = "Good morning!!";
@@ -6844,7 +6844,7 @@ It returns undefined for non-strict mode and returns Error for strict mode. In n
 
 ---
 
-#### 56. What is the output of below code?
+#### 211. What is the output of below code?
 
 ```javascript
 let count = 10;
@@ -6879,7 +6879,7 @@ Whereas the second console.log logs 10 by capturing the count variable from oute
 
 ---
 
-#### 57. What is the output of below code ?
+#### 212. What is the output of below code ?
 
 - 1: console.log(true && 'hi');
 - 2: console.log(true && 'hi' && 1);
@@ -6906,7 +6906,7 @@ Whereas the second console.log logs 10 by capturing the count variable from oute
 
 ---
 
-#### 58. What is the output of below code ?
+#### 213. What is the output of below code ?
 
 ```javascript
 let arr = [1, 2, 3];
@@ -6932,7 +6932,7 @@ Arrays have their own implementation of `toString` method that returns a comma-s
 
 ---
 
-#### 59. What is the output of below code?
+#### 214. What is the output of below code?
 
 ```javascript
 getMessage();
@@ -6960,7 +6960,7 @@ Hoisting will move variables and functions to be the top of scope. Even though g
 
 ---
 
-#### 60. What is the output of below code?
+#### 215. What is the output of below code?
 
 ```javascript
 let quickPromise = Promise.resolve();
@@ -6990,7 +6990,7 @@ Even though a promise is resolved immediately, it won't be executed immediately 
 
 ---
 
-#### 61. What is the output of below code?
+#### 216. What is the output of below code?
 
 ```javascript
 console
@@ -7025,7 +7025,7 @@ Hence, there will be **cannot read properties of undefined** error while applyin
 
 ---
 
-#### 62. Write a function that returns a random HEX color
+#### 217. Write a function that returns a random HEX color
 
 <details><summary><b>Solution 1 (Iterative generation)</b></summary>
 <p>
@@ -7092,7 +7092,7 @@ function generateRandomHex() {
 
 ---
 
-#### 63. What is the output of below code?
+#### 218. What is the output of below code?
 
 ```javascript
 var of = ["of"];
@@ -7128,7 +7128,7 @@ for(var in in in) {
 
 ---
 
-#### 64. What is the output of below code?
+#### 219. What is the output of below code?
 
 ```javascript
 const numbers = [11, 25, 31, 23, 33, 18, 200];
@@ -7162,7 +7162,7 @@ console.log(numbers);
 
 ---
 
-#### 65. What is the output order of below code?
+#### 220. What is the output order of below code?
 
 ```javascript
 setTimeout(() => {
@@ -7188,7 +7188,7 @@ When the JavaScript engine parses the above code, the first two statements are a
 
 ---
 
-#### 66. What is the output of below code?
+#### 221. What is the output of below code?
 
 ```javascript
 console.log(name);
@@ -7226,7 +7226,7 @@ var message = function () {
 
 ---
 
-#### 67. What is the output of below code?
+#### 222. What is the output of below code?
 
 ```javascript
 message();
@@ -7256,7 +7256,7 @@ As part of hoisting, initially JavaScript Engine or compiler will store first fu
 
 ---
 
-#### 68. What is the output of below code?
+#### 223. What is the output of below code?
 
 ```javascript
 var currentCity = "NewYork";
@@ -7287,7 +7287,7 @@ Due to hositing feature, the variables declared with `var` will have `undefined`
 
 ---
 
-#### 69. What is the output of below code in an order?
+#### 224. What is the output of below code in an order?
 
 ```javascript
 function second() {
@@ -7323,7 +7323,7 @@ Each context(global or functional) has it's own variable environment and the cal
 
 ---
 
-#### 70. What is the output of below code?
+#### 225. What is the output of below code?
 
 ```javascript
 var expressionOne = function functionOne() {
@@ -7349,7 +7349,7 @@ The function call `functionOne` is not going to be part of scope chain and it ha
 
 ---
 
-#### 71. What is the output of below code?
+#### 226. What is the output of below code?
 
 ```javascript
 const user = {
@@ -7435,7 +7435,7 @@ user.eat()();
 
 ---
 
-#### 72. What is the output of below code?
+#### 227. What is the output of below code?
 
 ```javascript
 let message = "Hello World!";
@@ -7464,7 +7464,7 @@ In JavaScript, primitives are immutable i.e. there is no way to change a primiti
 
 ---
 
-#### 73. What is the output of below code?
+#### 228. What is the output of below code?
 
 ```javascript
 let user1 = {
@@ -7496,7 +7496,7 @@ In JavaScript, the variables such as objects, arrays and functions comes under p
 
 ---
 
-#### 74. What is the output of below code?
+#### 229. What is the output of below code?
 
 ```javascript
 function greeting() {
@@ -7525,7 +7525,7 @@ The variable `message` is still treated as closure(since it has been used in inn
 
 ---
 
-#### 75. What is the output of below code?
+#### 230. What is the output of below code?
 
 ```javascript
 const a = new Number(10);
@@ -7548,7 +7548,7 @@ Eventhough both variables `a` and `b` refer a number value, the first declaratio
 
 ---
 
-#### 76. What is the type of below function?
+#### 231. What is the type of below function?
 
 ```javascript
 function add(a, b) {
@@ -7572,7 +7572,7 @@ Eventhough the above function returns the same result for the same arguments(inp
 
 ---
 
-#### 77. What is the output of below code?
+#### 232. What is the output of below code?
 
 ```javascript
 const promiseOne = new Promise((resolve, reject) => setTimeout(resolve, 4000));
@@ -7602,7 +7602,7 @@ Promise.allSettled([promiseOne, promiseTwo]).then((data) => console.log(data));
 
 ---
 
-#### 78. What is the output of below code?
+#### 233. What is the output of below code?
 
 ```javascript
 try {
@@ -7645,7 +7645,7 @@ You can use `.catch()` function in promises to avoid these issues with asynchron
 
 ---
 
-#### 79. What is the output of below code?
+#### 234. What is the output of below code?
 
 ```javascript
 let a = 10;
@@ -7673,7 +7673,7 @@ The variable "a" declared inside "if" has block scope and does not affect the va
 
 ---
 
-#### 80. What is the output of below code?
+#### 235. What is the output of below code?
 
 ```javascript
 let arr = [1, 2, 3, 4, 5, -6, 7];
@@ -7697,7 +7697,7 @@ The length of the array 'arr' has been set to 0, so the array becomes empty.
 </details>
 ---
 
-#### 81. How do you verify two strings are anagrams or not?
+#### 236. How do you verify two strings are anagrams or not?
 
 An anagram is a word or phrase formed by rearranging all the letters of a different word or phrase exactly once. For example, the anagrams of "eat" word are "tea" and "ate".
 
@@ -7710,7 +7710,7 @@ function verifyAnagrams(word1, word2) {
 console.log(verifyAnagrams("eat", "ate"));
 ```
 
-#### 82. What is the output of below code?
+#### 237. What is the output of below code?
 
 ```javascript
 printHello();
@@ -7757,7 +7757,7 @@ function printHello() {
 </details>
 ---
 
-#### 83. What is the time taken to execute below timeout callback?
+#### 238. What is the time taken to execute below timeout callback?
 
 ```javascript
 console.log("Start code");
