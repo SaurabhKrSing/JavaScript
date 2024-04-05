@@ -5276,7 +5276,7 @@ console.log(y);
 
 ---
 
-#### 6. What is the output of below code
+#### 161. What is the output of below code
 
 ```javascript
 function foo() {
@@ -5316,7 +5316,7 @@ console.log(foo()); // {message: "Hello World"}
 
 ---
 
-#### 7. What is the output of below code
+#### 162. What is the output of below code
 
 ```javascript
 var myChars = ["a", "b", "c", "d"];
@@ -5344,7 +5344,7 @@ If you try to print myChars then you can observe that it doesn't set an undefine
 
 ---
 
-#### 8. What is the output of below code in latest Chrome
+#### 163. What is the output of below code in latest Chrome
 
 ```javascript
 var array1 = new Array(3);
@@ -5376,7 +5376,7 @@ The latest chrome versions display `sparse array`(they are filled with holes) us
 
 ---
 
-#### 9. What is the output of below code
+#### 164. What is the output of below code
 
 ```javascript
 const obj = {
@@ -5413,7 +5413,7 @@ ES6 provides method definitions and property shorthands for objects. So both pro
 
 ---
 
-#### 10. What is the output of below code
+#### 165. What is the output of below code
 
 ```javascript
 console.log(1 < 2 < 3);
@@ -5450,7 +5450,7 @@ Whereas the second statement follows the below order,
 
 ---
 
-#### 11. What is the output of below code in non-strict mode
+#### 166. What is the output of below code in non-strict mode
 
 ```javascript
 function printNumbers(first, second, first) {
@@ -5479,7 +5479,7 @@ The value of the first parameter is mapped to the third argument which is passed
 
 ---
 
-#### 12. What is the output of below code
+#### 167. What is the output of below code
 
 ```javascript
 const printNumbersArrow = (first, second, first) => {
@@ -5505,7 +5505,7 @@ Unlike regular functions, the arrow functions doesn't not allow duplicate parame
 
 ---
 
-#### 13. What is the output of below code
+#### 168. What is the output of below code
 
 ```javascript
 const arrowFunc = () => arguments.length;
@@ -5545,7 +5545,7 @@ console.log(arrowFunc(1, 2, 3));
 
 ---
 
-#### 14. What is the output of below code
+#### 169. What is the output of below code
 
 ```javascript
 console.log(String.prototype.trimLeft.name === "trimLeft");
@@ -5567,7 +5567,7 @@ In order to be consistent with functions like `String.prototype.padStart`, the s
 
 ---
 
-#### 15. What is the output of below code
+#### 170. What is the output of below code
 
 ```javascript
 console.log(Math.max());
@@ -5591,7 +5591,7 @@ console.log(Math.max());
 
 ---
 
-#### 16. What is the output of below code
+#### 171. What is the output of below code
 
 ```javascript
 console.log(10 == [10]);
@@ -5621,7 +5621,7 @@ So it doesn't matter about number brackets([]) around the number, it is always c
 
 ---
 
-#### 17. What is the output of below code
+#### 172. What is the output of below code
 
 ```javascript
 console.log(10 + "10");
@@ -5645,7 +5645,7 @@ The concatenation operator(+) is applicable for both number and string types. So
 
 ---
 
-#### 18. What is the output of below code
+#### 173. What is the output of below code
 
 ```javascript
 console.log([0] == false);
@@ -5671,7 +5671,7 @@ In comparison operators, the expression `[0]` converted to Number([0].valueOf().
 </p>
 </details>
 
-#### 19. What is the output of below code
+#### 174. What is the output of below code
 
 ```javascript
 console.log([1, 2] + [3, 4]);
@@ -5694,7 +5694,7 @@ The + operator is not meant or defined for arrays. So it converts arrays into st
 
 ---
 
-#### 20. What is the output of below code
+#### 175. What is the output of below code
 
 ```javascript
 const numbers = new Set([1, 1, 2, 3, 4]);
@@ -5721,7 +5721,7 @@ Since `Set` object is a collection of unique values, it won't allow duplicate va
 
 ---
 
-#### 21. What is the output of below code
+#### 176. What is the output of below code
 
 ```javascript
 console.log(NaN === NaN);
@@ -5742,7 +5742,7 @@ JavaScript follows IEEE 754 spec standards. As per this spec, NaNs are never equ
 
 ---
 
-#### 22. What is the output of below code
+#### 177. What is the output of below code
 
 ```javascript
 let numbers = [1, 2, 3, 4, NaN];
@@ -5774,7 +5774,7 @@ console.log(numbers.includes(NaN)); // true
 
 ---
 
-#### 23. What is the output of below code
+#### 178. What is the output of below code
 
 ```javascript
 let [a, ...b] = [1, 2, 3, 4, 5];
@@ -5804,7 +5804,7 @@ console.log(a, b); // 1, [2, 3, 4, 5]
 
 ---
 
-#### 25. What is the output of below code
+#### 179. What is the output of below code
 
 ```javascript
 async function func() {
@@ -5836,7 +5836,7 @@ function func() {
 
 ---
 
-#### 26. What is the output of below code
+#### 180. What is the output of below code
 
 ```javascript
 async function func() {
@@ -5868,7 +5868,7 @@ function func() {
 
 ---
 
-#### 27. What is the output of below code
+#### 181. What is the output of below code
 
 ```javascript
 function delay() {
@@ -5907,7 +5907,7 @@ Even though “processArray” is an async function, the anonymous function that
 
 ---
 
-#### 28. What is the output of below code
+#### 182. What is the output of below code
 
 ```javascript
 function delay() {
@@ -5956,7 +5956,7 @@ async function processArray(array) {
 
 ---
 
-#### 29. What is the output of below code
+#### 183. What is the output of below code
 
 ```javascript
 var set = new Set();
@@ -5984,7 +5984,7 @@ Set has few exceptions from equality check,
 
 ---
 
-#### 30. What is the output of below code
+#### 184. What is the output of below code
 
 ```javascript
 const sym1 = Symbol("one");
@@ -6019,7 +6019,7 @@ Symbol follows below conventions,
 
 ---
 
-#### 31. What is the output of below code
+#### 185. What is the output of below code
 
 ```javascript
 const sym1 = new Symbol("one");
@@ -6093,7 +6093,7 @@ if (typeof myNumber !== "string")
 
 ---
 
-#### 33. What is the output of below code
+#### 186. What is the output of below code
 
 ```javascript
 console.log(
@@ -6125,7 +6125,7 @@ The symbols has below constraints,
 
 ---
 
-#### 34. What is the output of below code
+#### 187. What is the output of below code
 
 ```javascript
 class A {
@@ -6160,7 +6160,7 @@ Using constructors, `new.target` refers to the constructor (points to the class 
 
 ---
 
-#### 35. What is the output of below code
+#### 188. What is the output of below code
 
 ```javascript
 const [x, ...y, z] = [1, 2, 3, 4];
@@ -6185,7 +6185,7 @@ It throws a syntax error because the rest element should not have a trailing com
 
 ---
 
-#### 36. What is the output of below code
+#### 189. What is the output of below code
 
 ```javascript
 const { a: x = 10, b: y = 20 } = { a: 30 };
@@ -6215,7 +6215,7 @@ The object property follows below rules,
 
 ---
 
-#### 37. What is the output of below code
+#### 190. What is the output of below code
 
 ```javascript
 function area({ length = 10, width = 20 }) {
@@ -6265,7 +6265,7 @@ area();
 
 ---
 
-#### 38. What is the output of below code
+#### 191. What is the output of below code
 
 ```javascript
 const props = [
@@ -6296,7 +6296,7 @@ It is possible to combine Array and Object destructuring. In this case, the thir
 
 ---
 
-#### 39. What is the output of below code
+#### 192. What is the output of below code
 
 ```javascript
 function checkType(num = 1) {
@@ -6332,7 +6332,7 @@ Hence, the result of function calls categorized as below,
 
 ---
 
-#### 40. What is the output of below code
+#### 193. What is the output of below code
 
 ```javascript
 function add(item, items = []) {
@@ -6360,7 +6360,7 @@ Since the default argument is evaluated at call time, a new object is created ea
 
 ---
 
-#### 41. What is the output of below code
+#### 194. What is the output of below code
 
 ```javascript
 function greet(greeting, name, message = greeting + " " + name) {
