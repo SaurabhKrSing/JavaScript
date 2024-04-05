@@ -1,9 +1,8 @@
 <div align="center">
   <img height="60" src="https://img.icons8.com/color/344/javascript.png">
-  <h1>JavaScript Questions</h1>
+  <h1>JavaScript Interview Code Comprehension Question</h1>
 </div>
 
----
 
 ###### 1. What's the output?
 
