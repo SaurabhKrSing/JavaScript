@@ -802,7 +802,7 @@
     Some of the examples of arrow functions are listed as below,
 
     ```javascript
-    const arrowFunc1 = (a, b) => a + b; // Multiple parameters
+    const arrowFunc1 = (a, b) => a + b; // Multiple parameter
     const arrowFunc2 = (a) => a * 10; // Single parameter
     const arrowFunc3 = () => {}; // no parameters
     ```
